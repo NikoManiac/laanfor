@@ -1,5 +1,5 @@
 {
-  "name": "knpw.rs",
+  "name": "Laanfor",
   "private": true,
   "scripts": {
     "lint": "eslint --ext .js,.jsx src gatsby-config.js gatsby-node.js",
@@ -9,7 +9,7 @@
     "preserve": "npm run build",
     "serve": "gatsby serve"
   },
-  "author": "Kenneth Powers <ken@kenpowers.net>",
+  "author": "Laanfor <laanfor@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@emotion/core": "^10.0.5",
