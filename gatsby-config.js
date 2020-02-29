@@ -40,6 +40,8 @@ module.exports = {
           },
           {
             resolve: "gatsby-remark-images",
+            wrapperStyle: fluidResult =>
+              `flex:${_.round(fluidResult.aspectRatio, 2)};`,
             maxWidth: 950
           }
         ]
@@ -48,7 +50,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "UA-46190412-1"
+        trackingId: ""
       }
     },
     {

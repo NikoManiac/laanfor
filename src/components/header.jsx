@@ -49,7 +49,7 @@ const Nav = styled.nav(({ theme }) => ({
 const SiteHeader = () => (
   <Header>
     <H1>
-      <Small>With</Small> <Link to="/">似号</Link>{" "}
+      <Small>With</Small> <Link to="/">肆号</Link>{" "}
       <Small>枪炮、病菌与键盘</Small>
     </H1>
     <Nav>
