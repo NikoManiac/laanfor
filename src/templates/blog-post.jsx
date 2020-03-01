@@ -118,7 +118,7 @@ const BlogPost = ({ data, pageContext }) => {
           <Footer>
             {isProduction && (
               <ReactDisqusComments
-                shortname="kenpowers"
+                shortname="laanfor_blog"
                 identifier={post.frontmatter.path}
                 title={post.frontmatter.title}
                 url={fullUrl}
