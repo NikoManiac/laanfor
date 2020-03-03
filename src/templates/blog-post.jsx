@@ -58,6 +58,7 @@ const PostWrap = styled.section(({ theme }) => ({
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
+  padding: "2rem",
   "> *": {
     width: "100vw",
     wordWrap: "break-word",
@@ -118,7 +119,7 @@ const BlogPost = ({ data, pageContext }) => {
           <Footer>
             {isProduction && (
               <ReactDisqusComments
-                shortname="laanfor_blog"
+                shortname="laanfor-cc"
                 identifier={post.frontmatter.path}
                 title={post.frontmatter.title}
                 url={fullUrl}
